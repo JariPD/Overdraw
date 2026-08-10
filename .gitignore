@@ -5,6 +5,7 @@ riderModule.iml
 /_ReSharper.Caches/
 .idea/
 *.user
+*.md
 
 # npm / Tailwind
 node_modules/
