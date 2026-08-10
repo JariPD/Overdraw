@@ -1,16 +1,68 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overdraw", "Overdraw\Overdraw.csproj", "{3AE83921-45AA-48CF-BE41-1C1596021051}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overdraw.Web", "src\Overdraw.Web\Overdraw.Web.csproj", "{6122C714-58CA-4B7A-8D43-13D17EE476BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0AB3BF05-4346-4AA6-1389-037BE0695223}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overdraw.Tests", "tests\Overdraw.Tests\Overdraw.Tests.csproj", "{F2382C11-1075-47F5-9922-7B53AFE9A901}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{769EED0B-0E29-4920-B10D-52CEB4BE7D1C}"
+	ProjectSection(SolutionItems) = preProject
+		Docs\CLAUDE.md = Docs\CLAUDE.md
+		Docs\overdraw-design-doc.md = Docs\overdraw-design-doc.md
+		Docs\overdraw-implementation-plan.md = Docs\overdraw-implementation-plan.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{50662A0B-073C-4787-9FCD-DA8F9FA87E30}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3AE83921-45AA-48CF-BE41-1C1596021051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3AE83921-45AA-48CF-BE41-1C1596021051}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3AE83921-45AA-48CF-BE41-1C1596021051}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3AE83921-45AA-48CF-BE41-1C1596021051}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6122C714-58CA-4B7A-8D43-13D17EE476BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6122C714-58CA-4B7A-8D43-13D17EE476BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6122C714-58CA-4B7A-8D43-13D17EE476BE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6122C714-58CA-4B7A-8D43-13D17EE476BE}.Debug|x64.Build.0 = Debug|Any CPU
+		{6122C714-58CA-4B7A-8D43-13D17EE476BE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6122C714-58CA-4B7A-8D43-13D17EE476BE}.Debug|x86.Build.0 = Debug|Any CPU
+		{6122C714-58CA-4B7A-8D43-13D17EE476BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6122C714-58CA-4B7A-8D43-13D17EE476BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6122C714-58CA-4B7A-8D43-13D17EE476BE}.Release|x64.ActiveCfg = Release|Any CPU
+		{6122C714-58CA-4B7A-8D43-13D17EE476BE}.Release|x64.Build.0 = Release|Any CPU
+		{6122C714-58CA-4B7A-8D43-13D17EE476BE}.Release|x86.ActiveCfg = Release|Any CPU
+		{6122C714-58CA-4B7A-8D43-13D17EE476BE}.Release|x86.Build.0 = Release|Any CPU
+		{F2382C11-1075-47F5-9922-7B53AFE9A901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2382C11-1075-47F5-9922-7B53AFE9A901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2382C11-1075-47F5-9922-7B53AFE9A901}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F2382C11-1075-47F5-9922-7B53AFE9A901}.Debug|x64.Build.0 = Debug|Any CPU
+		{F2382C11-1075-47F5-9922-7B53AFE9A901}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F2382C11-1075-47F5-9922-7B53AFE9A901}.Debug|x86.Build.0 = Debug|Any CPU
+		{F2382C11-1075-47F5-9922-7B53AFE9A901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2382C11-1075-47F5-9922-7B53AFE9A901}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2382C11-1075-47F5-9922-7B53AFE9A901}.Release|x64.ActiveCfg = Release|Any CPU
+		{F2382C11-1075-47F5-9922-7B53AFE9A901}.Release|x64.Build.0 = Release|Any CPU
+		{F2382C11-1075-47F5-9922-7B53AFE9A901}.Release|x86.ActiveCfg = Release|Any CPU
+		{F2382C11-1075-47F5-9922-7B53AFE9A901}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6122C714-58CA-4B7A-8D43-13D17EE476BE} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{F2382C11-1075-47F5-9922-7B53AFE9A901} = {0AB3BF05-4346-4AA6-1389-037BE0695223}
 	EndGlobalSection
 EndGlobal

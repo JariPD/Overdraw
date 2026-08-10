@@ -1,0 +1,17 @@
+{
+  "name": "overdraw.web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css:watch": "tailwindcss -i ./wwwroot/css/input.css -o ./wwwroot/css/app.css --watch",
+    "css:build": "tailwindcss -i ./wwwroot/css/input.css -o ./wwwroot/css/app.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3"
+  }
+}

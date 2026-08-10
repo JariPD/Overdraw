@@ -5,3 +5,7 @@ riderModule.iml
 /_ReSharper.Caches/
 .idea/
 *.user
+
+# npm / Tailwind
+node_modules/
+src/Overdraw.Web/wwwroot/css/app.css
